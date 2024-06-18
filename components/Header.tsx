@@ -28,12 +28,12 @@ export default function Header() {
   const PathName = usePathname();
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header className="absolute inset-x-0 top-0 z-50 md:static md:w-3/5">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <h1 className="mr-6 text-3xl font-bold">
+        <h1 className="text-3xl font-bold">
           Mateo<span className="text-primary">.</span>
         </h1>
         <div className="flex lg:hidden">
@@ -82,7 +82,7 @@ export default function Header() {
             </SheetContent>
           </Sheet>
         </div>
-        <div className="mr-8 hidden sm:flex sm:flex-1 sm:justify-end sm:gap-8">
+        <div className="hidden sm:flex sm:flex-1 sm:justify-end sm:gap-8">
           {links.map((link, index) => (
             <Link
               key={index}

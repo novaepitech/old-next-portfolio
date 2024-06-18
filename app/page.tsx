@@ -27,19 +27,6 @@ export default function Home() {
               <p className="font-thin">
                 Je construis des choses avec ma souris et mon clavier.
               </p>
-            </div>
-            <div>
-              <Image
-                src={photoPro}
-                alt="Mateo"
-                width={400}
-                height={400}
-                className="rounded-full"
-                priority={true}
-              />
-            </div>
-          </div>
-          <div className="flex justify-center">
             <Link href="/CV_Epitech-Mateo_CABRERA.pdf">
               <Button
                 variant="outline"
@@ -49,6 +36,17 @@ export default function Home() {
                 <Download className="ml-2 h-4 w-4" />
               </Button>
             </Link>
+            </div>
+            <div>
+              <Image
+                src={photoPro}
+                alt="Mateo Cabrera"
+                width={400}
+                height={400}
+                className="rounded-full"
+                priority={true}
+              />
+            </div>
           </div>
         </section>
       </div>
