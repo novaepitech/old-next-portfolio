@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="max-lg:flex max-lg:h-dvh max-lg:items-end">
         <section className="mb-10 lg:mt-24">
           <div className="flex-between flex items-center justify-evenly max-xl:flex-wrap-reverse">
-            <div className="max-lg:mt-6 max-lg:text-center lg:w-3/5 xl:w-3/6">
+            <div className="max-lg:mt-6 max-lg:text-center md:w-full lg:w-3/5 xl:w-full">
               <p>Etudiant développeur</p>
               <h1 className="mt-2 text-4xl lg:text-7xl">Salut, c&apos;est</h1>
               <WordRotate
