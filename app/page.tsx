@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex-between flex flex-wrap-reverse items-center justify-center">
           <div className="max-md:mt-6 max-md:text-center md:w-3/5">
             <p>Etudiant développeur</p>
-            <h1 className="mt-2 text-4xl md:text-7xl">Salut, c'est</h1>
+            <h1 className="mt-2 text-4xl md:text-7xl">Salut, c&apos;est</h1>
             <WordRotate
               className="mb-8 text-4xl text-primary md:text-7xl"
               words={["Mateo Cabrera", "Nova"]}
