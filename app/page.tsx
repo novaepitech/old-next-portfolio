@@ -9,6 +9,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <section>
+        <h1>Projets sélectionnés</h1>
+      </section>
     </>
   );
 }
