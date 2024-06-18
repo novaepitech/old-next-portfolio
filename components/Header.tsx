@@ -1,5 +1,5 @@
 "use client";
-import { Menu, Package2, Home, CircleUser } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Link } from "next-view-transitions";
@@ -28,7 +28,7 @@ export default function Header() {
   const PathName = usePathname();
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 md:static md:w-3/5">
+    <header className="absolute inset-x-0 top-0 z-50 lg:static lg:w-11/12 xl:w-3/5">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
