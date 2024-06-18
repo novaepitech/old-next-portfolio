@@ -25,7 +25,7 @@ export default function RootLayout({
       <html lang="en" className="dark">
         <body className={`${jetbrainsMono.className} flex flex-col items-center`}>
           <Header />
-          <main className="w-3/5">{children}</main>
+          <main className="w-11/12 md:w-3/5">{children}</main>
         </body>
       </html>
     </ViewTransitions>
